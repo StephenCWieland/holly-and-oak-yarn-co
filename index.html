@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Holly & Oak Yarn Co.</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Holly & Oak Yarn Co.</h1>
+    <p class="tagline">A Community Yarn Shop</p>
+    <nav class="main-nav" aria-label="Main">
+      <a href="#about">About</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+      <a href="#connect">Connect</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-image" data-hero>
+        <img src="images/HollyOakFrontDesk.jpg" alt="Front desk at Holly & Oak Yarn Co." onerror="this.style.display='none'; this.nextElementSibling.classList.add('visible');">
+        <div class="placeholder">Image unavailable</div>
+        <div class="hero-overlay">
+          <p class="hero-overlay-text">Quality fibers & a seat at the table for every maker.</p>
+          <a href="#contact" class="hero-cta" id="hero-cta">Plan your visit <span class="hero-cta-arrow">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <h2>About Us</h2>
+      <p>Holly & Oak Yarn Co. is a local yarn shop in South Bend’s Near Northwest neighborhood. Founded by indie dyer Briana, the shop offers a welcoming space for knitters, crocheters, and fiber artists of every skill level.</p>
+      <p>Our mission is built on four values: <strong>fellowship</strong>, <strong>creativity</strong>, <strong>inspiration</strong>, and <strong>community</strong>. We carry more than 11 brands and companies, including in-house hand-dyed yarns, and invite you to browse our collection in person and join our community of makers across Michiana.</p>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Visit & Contact</h2>
+      <div class="contact-card">
+        <div class="contact-card-image">
+          <img src="images/HollyOakCard.jpg" alt="Holly & Oak Yarn Co. — contact card">
+        </div>
+        <div class="contact-details">
+          <p><strong>Phone</strong> <a href="tel:+15745200302">574-520-0302</a></p>
+          <p><strong>Email</strong> <a href="mailto:hollyandoakyarnco@gmail.com">hollyandoakyarnco@gmail.com</a></p>
+          <p><strong>Address</strong><br>908 Portage Ave., Suite 100<br>South Bend, IN 46616</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+      <h2>Gallery</h2>
+      <div class="gallery-grid">
+        <div class="gallery-item" data-gallery>
+          <img src="images/HollyOakInventory.jpg" alt="Yarn inventory at Holly & Oak" onerror="this.style.display='none'; this.nextElementSibling.classList.add('visible');">
+          <div class="placeholder">Add <code>images/yarn-1.jpg</code></div>
+        </div>
+        <div class="gallery-item" data-gallery>
+          <img src="images/HollyOakStore.jpg" alt="Store interior" onerror="this.style.display='none'; this.nextElementSibling.classList.add('visible');">
+          <div class="placeholder">Add <code>images/yarn-2.jpg</code></div>
+        </div>
+        <div class="gallery-item" data-gallery>
+          <img src="images/HollyOakClass.jpg" alt="Class or workshop at Holly & Oak" onerror="this.style.display='none'; this.nextElementSibling.classList.add('visible');">
+          <div class="placeholder">Add <code>images/yarn-3.jpg</code></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="connect" id="connect">
+      <h2>Connect With Us</h2>
+      <p>Follow along for new arrivals, project ideas, and yarn love.</p>
+      <div class="links">
+        <a href="https://www.instagram.com/hollyandoakyarnco/" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="https://www.tiktok.com/@hollyandoakyarnco?is_from_webapp=1&sender_device=pc" target="_blank" rel="noopener noreferrer">TikTok</a>
+        <a href="https://www.facebook.com/groups/1349482979379219/posts/1594696021524579/" target="_blank" rel="noopener noreferrer">Facebook</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; Holly & Oak Yarn Co.</p>
+  </footer>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image preview" hidden>
+    <button type="button" class="lightbox-close" aria-label="Close">×</button>
+    <div class="lightbox-content">
+      <img src="" alt="">
+    </div>
+  </div>
+
+  <button type="button" class="back-to-top" id="back-to-top" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
